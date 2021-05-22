@@ -9,7 +9,7 @@ You can try this code out in Google Cloud Shell! Click below to clone the repo i
 
 [![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/hashicorp/hashicat-gcp.git&cloudshell_tutorial=walkthrough.md)
 
-Once you have the code opened, rename your `terraform.tfvars.example` file to `terraform.tfvars`. Change the **prefix** and **project** variables in the file. You will need a project with the Compute Engine APIs enabled in order to execute the terraform code. For example, your terraform.tfvars file might look like this:
+Once you have the  code opened, rename your `terraform.tfvars.example` file to `terraform.tfvars`. Change the **prefix** and **project** variables in the file. You will need a project with the Compute Engine APIs enabled in order to execute the terraform code. For example, your terraform.tfvars file might look like this:
 
 ```
 prefix = "yourname"
